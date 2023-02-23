@@ -13,6 +13,7 @@ const ArticlePageStyled = styled.div`
         -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.33);
         box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.33);
         border-radius: .5rem;
+        background-color: #A61F69;
     }
     img{
         inline-size: 100%;

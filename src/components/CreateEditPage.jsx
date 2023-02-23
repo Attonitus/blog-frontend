@@ -13,6 +13,7 @@ const CreateEditPageStyled = styled.div`
     box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.33);
     border-radius: .5rem;
     padding: 1rem;
+    background-color: #A61F69;
     .titles {
         display: flex;
         justify-content: space-between;

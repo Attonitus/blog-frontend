@@ -9,6 +9,7 @@ const ArticleCardStyled = styled.div`
     flex-direction: column;
     inline-size: 20rem;
     border-radius: 1rem;
+    background-color: #A61F69;
 
     img{
         inline-size: 100%;
