@@ -62,8 +62,7 @@ function CreateEditPage() {
 
             const response = await fetch(GlobalUrl.url, {
                 method: 'POST',
-                body: data,
-                mode: 'no-cors',
+                body: data
             })
     
             await response.json()
@@ -84,7 +83,7 @@ function CreateEditPage() {
                 <h3>Llene los datos solicitados</h3>
                 <Link to="/"><button className="buttonStyle"><span className="material-symbols-outlined">home</span></button></Link>
             </div>
-            <form onSubmit={saveArticle}>
+            <form action="https://blog-ai-card.vercel.app/api/v1/articulo/" onSubmit={saveArticle}>
                 <label htmlFor="title">Titulo:</label>
                 <input type="text" name='title' placeholder='Titulo del post' value={title} onChange={onInputChange}/>
                 <label htmlFor="description">Descripción (Opcional):</label>
