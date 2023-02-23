@@ -4,6 +4,8 @@ const GlobalStyled = createGlobalStyle`
     body{
         margin: 0;
         font-family: sans-serif;
+        background-color: #400E32;
+        color: white;
     }
     
     .buttonStyle{
