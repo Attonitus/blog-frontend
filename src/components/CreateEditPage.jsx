@@ -62,7 +62,8 @@ function CreateEditPage() {
 
             const response = await fetch(GlobalUrl.url, {
                 method: 'POST',
-                body: data
+                body: data,
+                mode: 'no-cors',
             })
     
             await response.json()
