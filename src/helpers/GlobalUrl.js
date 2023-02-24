@@ -1,3 +1,3 @@
 export const GlobalUrl = {
-    url: 'https://blog-ai-card.vercel.app/api/v1/articulo/'
+    url: 'https://blog-ai-atto.onrender.com/api/v1/articulo/'
 }
