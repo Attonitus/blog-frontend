@@ -62,7 +62,6 @@ function CreateEditPage() {
 
             const response = await fetch(GlobalUrl.url, {
                 method: 'POST',
-                headers: {'Content-Type':'multipart/form-data'},
                 body: data
             })
     
